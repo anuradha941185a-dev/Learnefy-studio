@@ -1,0 +1,569 @@
+@media screen and (min-width:768px){
+    *{
+        padding-left:0px;
+        padding-right:0px;
+        margin:0px;
+        box-styling:border-box;
+    }
+    
+    body{
+    padding-top:10px;
+    padding-left:0px;
+    padding-right:0p
+        width:100%;
+    }
+    .header{
+        background:white;
+        width:100%;
+        
+    }
+    .headerbar{
+    pading-left:5px;
+    padding-right:5px;
+    height:50px;
+        display:flex;
+        justify-content:space-between;
+        TOP:10PX;
+        
+    }
+    .logo-sidebar{
+    padding-left:0px;
+        display:flex;
+        
+    }
+    .topimg{
+    background:blue;
+    
+        height:30px;
+        width:30px;
+    }
+    li{
+    
+        list-style:none;
+    }
+    .logo-text{
+        display:flex;
+       padding-left:0px;
+       padding-right:0px;
+        poition:absolute;
+        
+    }
+    .visualize{
+        font-size:20px;
+        font-weight:30px;
+    }
+    .grow{
+        font-size:10px;
+    }
+   
+    .gg, .course,  .contact, .about{
+    font-size:15px;
+      text-decoration:none;
+     position:relative;
+     top:15px;
+    }
+    .gg:hover, .course:hover,  .contact:hover, .about:hover{
+        text-shadow:2px 2px 2px black;
+        color:gray;
+    }
+    .hhh{
+        display:flex;
+        word-spacing:30px;
+    }
+    .search-box{
+        width:130px;
+        height:25px;
+        border:2px solid gray;
+        border-radius:5px;
+    }
+    .search-box:hover{
+        color:red;
+        text-shadow: 2px 2px 3px yellow;
+        background:gray;
+        border:2px solid white;
+        border-radius:7px;
+        box-shadow:2px 2px 3px black;
+    }
+    .search-button{
+    color:white;
+    background:blue;
+    border:2px solid black;
+    border-radius:5px;
+        width:50px;
+        height:30px;
+        padding:0px;
+        
+       
+    }
+    .search-button:hover{
+    color: red;
+        background:white;
+        border:2px solid red;
+        border-radius:7px;
+        box-shadow:2px 2px  5px black;
+        text-shadow:2px 2px 2px greenyellow;
+    }
+    .search-bar{
+        position: relative;
+        top: 10px;
+    }
+.buttonbar{
+    position: relative;
+    top: 10px;
+}
+.login{
+    height:30px;
+    width:50px;
+    background:white;
+    border:2px solid gray;
+    border-radius:5px;
+}
+.sign{
+    height:30px;
+    width:50px;
+    background:blue;
+    color:white;
+    border:2px solid gray;
+    border-radius:5px;
+}
+.sign:hover{
+color:black;
+    background:white;
+    border:2px solid black;
+    border-radius:7px;
+    box-shadow:2px 2px 5px black;
+    text-shadow: 2px 2px 2px black;
+}
+.login:hover{
+    color:white;
+    background:gray;
+    border:2px solid black;
+    border-radius:7px;
+    box-shadow:2px 2px 5px black;
+    text-shadow: 2px 2px 2px black;
+}
+.contant-bar{
+    background: url(topbackground.JPG);
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+display :flex;
+justify-content:space-between;
+padding-left:5px;
+padding-right:5px;
+margin-bottom:40px;
+    width:100%;
+    height:400px ;
+}
+
+.title{
+
+position: relative;
+    width:500px;
+    height:200px;
+    overflow:hidden;
+    padding-left:10px;
+    }
+    .t1{
+        font-size:50px;
+        position:relative;
+        z-index:9;
+        text-shadow:10px 2px 2px  yellow;
+    }
+.t2{
+font-size:50px;
+    color: blue;
+}
+.t3{
+    padding-top:5px;
+}
+.exp-btn{
+width:150px;
+    background:blue;
+    border:2px solid gray;
+    border-radius:5px;
+    color:white;
+    height:30px;
+}
+.exp-btn:hover{
+    color: #000;
+    background: white;
+    border: 2px solid gray;
+    border-radius:7px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 2px black;
+}
+.start-btn:hover{
+   color: white;
+background: blue;
+border: 2px solid gray;
+border-radius:7px;
+box-shadow: 2px 2px 5px black;
+text-shadow: 2px 2px 2px black; 
+}
+.start-btn{
+width:150px;
+     background:white;
+    border:2px solid gray;
+    border-radius:5px;
+    height:30px;
+}
+.courses-button{
+width:320px;
+display: flex;
+justify-content:space-between;
+    padding-top:10px;
+}
+    .details{
+        width:500px;
+        display:flex;
+        justify-content:space-between;
+    }
+    .numbers{
+    color:black;
+        font-size:25px;
+    }
+    .courses{
+    color:black;
+    display:flex;
+    padding-top:0px;
+        font-size:15px;
+    }
+    .coursee{
+        width:40px;
+        height:40px;
+        position:relative;
+        top: 5px;
+    }
+    .boxes{
+    background:white;
+    border:2px solid gray;
+    box-shadow:6px 5px 10px black;
+    border-radius:10px;
+    width:140px;
+    height:50PX;
+    display:flex;
+    z-index: 9;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    
+    }
+     .numbers2{
+    color:black;
+        font-size:25px;
+    }
+    .Students{
+    color:black;
+    display:flex;
+    padding-top:0px;
+        font-size:15px;
+    }
+    .students{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 5px;
+    }
+    .box2{
+    background:white;
+    border:2px solid gray;
+    box-shadow:6px 4px 10px black;
+        border-radius:10px;
+    width:150px;
+    height:50PX;
+    display:flex;
+    position:relative;
+    margin-right:20px;
+    position:relative;
+    top:80%;
+    z-index: 9;
+    
+    
+    }
+    .numbers3{
+    color:black;
+        font-size:25px;
+    }
+    .Access{
+    color:black;
+    display:flex;
+    padding-top:0px;
+        font-size:15px;
+    }
+    .lifetime{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 6px;
+    }
+    .box3{
+    background:white;
+    border:2px solid gray;
+    box-shadow:6px 4px 10px black;
+    border-radius:10px;
+    width:150px;
+    height:50PX;
+    display:flex;
+    position:relative;
+    margin-right:20px;
+    position:relative;
+    top:50%;
+    z-index: 9;
+    }
+     .numbers2{
+    color:black;
+        font-size:25px;
+    }
+    .students{
+    color:black;
+    padding-top:0px;
+        font-size:15px;
+    }
+    .introduction{
+    background: white;
+        width:100%;
+        justify-content:space-between;
+        display:flex;
+    }
+    .certi, .flex, .begi, .exp{
+        box-shadow: 3px 3px 4px black;
+       background:white;
+        width:150px;
+        height:150px;
+        justify-content:center;
+        text-align:center;
+    }
+    .certificate, .expert, .beginners, .flexible{
+        color:black;
+        position:relative;
+        top:5%;
+        text-align:center;                    
+    }
+    .certificates, .experts, .beginnerss, .flexibles{
+        color:black;
+        position:relative;
+    
+        text-align:center;                    
+    }
+    .Earn, .learns, .cour, .lear{
+       color:black;
+        font-size:10px;
+        
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        top:5%;
+        text-align:center; 
+        align-items:center;
+        
+    }
+    .Earns, .learnss, .cou, .lears{
+       color:black;
+        font-size:10px;
+        
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        top:5%;
+        text-align:center; 
+        align-items:center;
+        
+    }
+     .web, .data, .digital, .desgine{
+       color:black;
+        font-size:15px;
+        
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        
+        text-align:center; 
+        align-items:center;
+        
+    }
+    
+    .exp1, .exp2, .ex3, .exp4{
+        text-decoration:none;
+       color:blue;
+        font-size:15px;
+        position:relative;
+        top:9px;
+        justify-content:center;
+        text-align:center;
+    }
+    .exp1:hover, .exp2:hover, .ex3:hover{
+        color:red;
+        font-size:20px;
+        text-shadow: 6px 6px 6px #000;
+    }
+    .img1, .img2, .img3, .img4, .bimg1, .bimg2, .bimg3{
+        width:60px;
+        height:60px;
+    }
+    exp4{
+        text-decoration:none;
+    font-size:15px;
+    color: blue;
+        padding-top:px;
+    }
+    .exp4:hover{
+        font-size:20px;
+        color:red;
+        text-shadow: 6px 6px 6px #000;
+    }
+    .int-gap{
+    width:100%;
+    justify-content:space-between;
+    display:flex;
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .bottam-heading{
+    padding-top:50px;
+    padding-bottom:10px;
+        width:100%;
+        position:relative;
+        text-align:center;
+    }
+    .popular{
+        font-size:20px;
+    }
+    .bottom{
+    background:white;
+        width:100%;
+        margin-bottom:50px;
+        justify-content:space-between;
+        display:flex;
+    }
+    .cf{
+        display:flex;
+        justify-content:space-between;
+        width:100%;
+        height:250px;
+    }
+    .content-footer{
+        width:50%;
+        height:200px;
+        display:flex;
+        flex-direction:column;
+        }
+        .about{
+            padding-bottom:20px;
+            color:blue;
+        }
+        .focus{
+            color:blue;
+        }
+        .f-details{
+            padding-top:10px;
+        }
+        .f-contant{
+        background: green;
+            width:50%;
+            height:80px;
+            justify-content:space-between;
+            display:flex;
+            flex-direction:row;
+        }
+    .c1, .c2, .c3{
+        width:120px;
+        background: white;
+        height:60px;
+    }
+    .fimg{
+        width:40%;
+        height:200px;
+    }
+    .fimgs{
+        width:100%;
+        height:200px;
+    }
+    .stay-update{
+        width:90%;
+        margin-left:4%;
+        margin-right:7%;
+        height:70px;
+        background: blue;
+        border-radius:10px;
+        margin-bottom:100px;
+        padding-left:20px;
+        display:flex;
+        justify-content:space-between;
+    }
+    .su{
+        color: white;
+        width:40%;
+        display:flex;
+        flex-direction:column;
+    }
+    .ue{
+        height:30px;
+        border:2px solid gray;
+        border-radius:5px;
+    }
+    .subscribe{
+        background: blue;
+        color:white;
+        height:35px;
+        padding-left:0px;
+        border:2px solid black;
+        border-radius:5px;
+    }
+    .subscribe:hover{
+    color:black;
+        background: white;
+        box-shadow:5px 5px 5px black;
+        text-shadow:2px 2px 4px black
+    }
+    .l-update{
+        position:relative;
+        top:25%;
+        padding-right:30px;
+    }
+    .l-name{
+        color:white;
+    }
+    .bot-img{
+        width:80px;
+        height: 80px;
+    }
+    .footer{
+        width:100%;
+        height:240px;
+        background: blue;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    .f-details{
+        display:flex;
+        justify-content:space-between;
+    }
+    .f-logo{
+        width:25%;
+        height:250px;
+    }
+    .q-links{
+        width:150px;
+    }        
+    .q-links, .categorie, .supports, .contacts{
+    color:white;
+    width:200px;
+        line-height:30px;
+    }        
+    .l-home:hover, .l-courses:hover, .l-about:hover, .l-blog:hover, .l-contact:hover, .l-Wd:hover, .l-ds:hover, .l-Dm:hover, .l-desgine:hover, .l-Programming:hover, .l-Hs:hover, .l-TC:hover, .l-PP:hover, .l-RP:hover, .l-link:hover, .l-num:hover, .l-code:hover{
+        background: white;
+        
+        color:black;
+        box-shadow:5px 5px 5px white;
+        text-shadow:2px 2px 4px black;
+    }
+    .l-home, .l-courses, .l-about, .l-blog, .l-contact, .l-Wd, .l-ds, .l-Dm, .l-desgine, .l-Programming, .l-Hs, .l-TC, .l-PP, .l-RP, .l-link, .l-num, .l-code{
+    text-decoration:none;
+        color:white;
+    }
+    
+}
